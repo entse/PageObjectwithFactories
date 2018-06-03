@@ -1,17 +1,25 @@
 package com.entse.pages.actions;
 
+import com.entse.base.Page;
+import com.entse.pages.locators.HomePageLocators;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
+public class HomePage extends Page {
 
 
-    @FindBy(xpath = "//button[@data-lob='flight']")
-    public WebElement flightTab;
+    public HomePageLocators home;
+
+    public HomePage(){
+        this.home = new HomePageLocators();
+        PageFactory.initElements(driver, this.home);
+
+    }
 
 
     public void goToFlights(){
-        flightTab.click();
+        home.flightTab.click();
     }
 
     public void goToHotels(){}
