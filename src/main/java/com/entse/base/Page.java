@@ -1,5 +1,6 @@
 package com.entse.base;
 
+import com.entse.pages.actions.TopNavigation;
 import com.entse.utilities.ExcelReader;
 import com.entse.utilities.ExtentMaganer;
 import com.relevantcodes.extentreports.ExtentReports;
@@ -27,6 +28,7 @@ public class Page {
     public static ExtentTest test;
     public WebElement dropdown;
     public static String browser;
+    public static TopNavigation topNav;
 
 
     public static void initConfiguration(){
@@ -56,6 +58,7 @@ public class Page {
         driver.get(Constans.testsiteurl);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Constans.implicitlywait, TimeUnit.SECONDS);
+        topNav = new TopNavigation(driver);
 
 
     }

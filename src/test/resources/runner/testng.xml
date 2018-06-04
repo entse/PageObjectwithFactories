@@ -6,13 +6,19 @@
     <listeners>
         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-        <listener class-name="listeners.CustomListeners"/>
+
     </listeners>
 
 
-    <test name="Login Test">
+    <test name="SignIn Test">
         <classes>
-            <class name="testcases.LoginTest" />
+            <class name="com.entse.testcases.SignInTest" />
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Flight Search Test">
+        <classes>
+            <class name="com.entse.testcases.FlightSearchTest" />
         </classes>
     </test> <!-- Test -->
 
