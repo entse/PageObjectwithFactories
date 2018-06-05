@@ -3,6 +3,8 @@ package com.entse.pages.locators;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class HomePageLocators {
 
     @FindBy(xpath = "//button[@data-lob='flight']")
@@ -28,6 +30,9 @@ public class HomePageLocators {
 
     @FindBy(xpath = "//form[@id='gcw-flights-form-hp-flight']//button[@type='submit']")
     public WebElement search;
+
+    @FindBy (xpath = "//*[@role='presentation']")
+    public List<WebElement> tabCount;
 
 
 }
