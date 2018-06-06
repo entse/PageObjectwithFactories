@@ -22,7 +22,8 @@ public class HomePage extends Page {
 
 
     public HomePage goToFlights(){
-        home.flightTab.click();
+
+        click(home.flightTab);
         return this;
     }
 
@@ -37,13 +38,13 @@ public class HomePage extends Page {
 
     public void bookAFlight(String from, String to, String departing, String returning, String adults, String children){
 
-        home.fromCity.sendKeys(from);
-        home.toCity.sendKeys(to);
-        home.departingField.sendKeys(departing);
-        home.returningField.sendKeys(returning);
-        home.adults.sendKeys(adults);
-        home.children.sendKeys(children);
-        home.search.click();
+        type(home.fromCity, from);
+        type(home.toCity, to);
+        type(home.departingField, departing);
+        type(home.returningField, returning);
+        type(home.adults, adults);
+        type(home.children, children);
+        click(home.search);
 
     }
 }

@@ -1,12 +1,25 @@
-21:56:00,423 DEBUG devpinoyLogger:51 - Launching Chrome
-21:56:11,582 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
-21:56:11,584 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
-21:56:11,587 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
-21:56:11,589 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-21:56:11,590 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-21:56:16,286 DEBUG devpinoyLogger:51 - Launching Chrome
-21:56:35,032 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
-21:56:35,033 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
-21:56:35,033 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
-21:56:35,033 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-21:56:35,033 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:01:05,660 DEBUG devpinoyLogger:52 - Launching Chrome
+23:01:10,952 DEBUG devpinoyLogger:71 - Clicking on Element: [[ChromeDriver: chrome on XP (22f738197c5a888893041815d1f57ceb)] -> xpath: //button[@id = 'header-account-menu']]
+23:01:46,686 DEBUG devpinoyLogger:71 - Clicking on Element: Proxy element for: AjaxElementLocator 'By.xpath: //a[@id = 'account-signin']'
+23:02:17,363 DEBUG devpinoyLogger:78 - Typing in an Element: [[ChromeDriver: chrome on XP (22f738197c5a888893041815d1f57ceb)] -> xpath: //input[@id = 'signin-loginid']] entered value as test@gmail.com
+23:02:17,509 DEBUG devpinoyLogger:78 - Typing in an Element: [[ChromeDriver: chrome on XP (22f738197c5a888893041815d1f57ceb)] -> xpath: //input[@id = 'signin-password']] entered value as passw12rd
+23:02:17,689 DEBUG devpinoyLogger:71 - Clicking on Element: [[ChromeDriver: chrome on XP (22f738197c5a888893041815d1f57ceb)] -> xpath: //button[@id = 'submitButton']]
+23:02:17,766 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+23:02:17,767 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
+23:02:17,768 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
+23:02:17,770 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:02:17,771 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:02:21,698 DEBUG devpinoyLogger:52 - Launching Chrome
+23:02:27,133 DEBUG devpinoyLogger:71 - Clicking on Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //button[@data-lob='flight']]
+23:02:29,701 DEBUG devpinoyLogger:78 - Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //input[@id='flight-origin-hp-flight']] entered value as Odessa, Ukraine (ODS-Odessa Intl.)
+23:02:31,690 DEBUG devpinoyLogger:78 - Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //input[@id='flight-destination-hp-flight']] entered value as Paris, France (PAR-All Airports)
+23:02:32,430 DEBUG devpinoyLogger:78 - Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //input[@id='flight-departing-hp-flight']] entered value as 23/06/2018
+23:02:32,959 DEBUG devpinoyLogger:78 - Typing in an Element: [[[[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //label[@for='flight-returning-hp-flight']]] -> xpath: //input[@id='flight-returning-hp-flight']] entered value as 31/07/2018
+23:02:33,157 DEBUG devpinoyLogger:78 - Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //select[@id='flight-adults-hp-flight']] entered value as 1
+23:02:33,300 DEBUG devpinoyLogger:78 - Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //select[@id='flight-children-hp-flight']] entered value as 0
+23:03:09,780 DEBUG devpinoyLogger:71 - Clicking on Element: Proxy element for: AjaxElementLocator 'By.xpath: //form[@id='gcw-flights-form-hp-flight']//button[@type='submit']'
+23:03:40,644 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+23:03:40,645 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
+23:03:40,645 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
+23:03:40,646 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:03:40,646 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

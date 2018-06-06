@@ -5,6 +5,7 @@ import com.entse.utilities.ExcelReader;
 import com.entse.utilities.ExtentMaganer;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -63,6 +64,21 @@ public class Page {
 
     }
 
+
+    public static void click(WebElement element){
+
+        element.click();
+        log.debug("Clicking on Element: " + element);
+        test.log(LogStatus.INFO, "Clicking on: " + element);
+    }
+
+    public static void type(WebElement element, String value){
+
+        element.sendKeys(value);
+        log.debug("Typing in an Element: " + element + " entered value as " + value);
+        test.log(LogStatus.INFO, "Typing in: " + element + " entered value as " + value);
+
+    }
 
     public static void quitBrowser() {
         driver.quit();

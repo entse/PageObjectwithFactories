@@ -21,8 +21,8 @@ public class TopNavigation{
 
     public SignInPage gotoSignIn(){
 
-        topNavigation.account.click();
-        topNavigation.signin.click();
+        Page.click(topNavigation.account);
+        Page.click(topNavigation.signin);
         return new SignInPage();
     }
 

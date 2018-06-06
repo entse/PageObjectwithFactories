@@ -1,2 +1,15 @@
-06/06/2018 21:56:00 devpinoyLogger Launching Chrome
-06/06/2018 21:56:16 devpinoyLogger Launching Chrome
+06/06/2018 23:01:05 devpinoyLogger Launching Chrome
+06/06/2018 23:01:10 devpinoyLogger Clicking on Element: [[ChromeDriver: chrome on XP (22f738197c5a888893041815d1f57ceb)] -> xpath: //button[@id = 'header-account-menu']]
+06/06/2018 23:01:46 devpinoyLogger Clicking on Element: Proxy element for: AjaxElementLocator 'By.xpath: //a[@id = 'account-signin']'
+06/06/2018 23:02:17 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (22f738197c5a888893041815d1f57ceb)] -> xpath: //input[@id = 'signin-loginid']] entered value as test@gmail.com
+06/06/2018 23:02:17 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (22f738197c5a888893041815d1f57ceb)] -> xpath: //input[@id = 'signin-password']] entered value as passw12rd
+06/06/2018 23:02:17 devpinoyLogger Clicking on Element: [[ChromeDriver: chrome on XP (22f738197c5a888893041815d1f57ceb)] -> xpath: //button[@id = 'submitButton']]
+06/06/2018 23:02:21 devpinoyLogger Launching Chrome
+06/06/2018 23:02:27 devpinoyLogger Clicking on Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //button[@data-lob='flight']]
+06/06/2018 23:02:29 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //input[@id='flight-origin-hp-flight']] entered value as Odessa, Ukraine (ODS-Odessa Intl.)
+06/06/2018 23:02:31 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //input[@id='flight-destination-hp-flight']] entered value as Paris, France (PAR-All Airports)
+06/06/2018 23:02:32 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //input[@id='flight-departing-hp-flight']] entered value as 23/06/2018
+06/06/2018 23:02:32 devpinoyLogger Typing in an Element: [[[[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //label[@for='flight-returning-hp-flight']]] -> xpath: //input[@id='flight-returning-hp-flight']] entered value as 31/07/2018
+06/06/2018 23:02:33 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //select[@id='flight-adults-hp-flight']] entered value as 1
+06/06/2018 23:02:33 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //select[@id='flight-children-hp-flight']] entered value as 0
+06/06/2018 23:03:09 devpinoyLogger Clicking on Element: Proxy element for: AjaxElementLocator 'By.xpath: //form[@id='gcw-flights-form-hp-flight']//button[@type='submit']'

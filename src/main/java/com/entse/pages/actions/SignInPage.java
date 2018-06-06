@@ -20,9 +20,9 @@ public class SignInPage extends Page{
 
     public void doLogin(String username, String password){
 
-        singinPage.email.sendKeys(username);
-        singinPage.password.sendKeys(password);
-        singinPage.signinBtn.click();
+        type(singinPage.email, username);
+        type(singinPage.password, password);
+        click(singinPage.signinBtn);
 
 
     }
