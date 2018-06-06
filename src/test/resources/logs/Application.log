@@ -1,12 +1,2 @@
-30/05/2018 23:35:24 devpinoyLogger Config file loaded!
-30/05/2018 23:35:24 devpinoyLogger OR file loaded!
-30/05/2018 23:35:28 devpinoyLogger Chrome launched!
-30/05/2018 23:35:32 devpinoyLogger Navigated to :https://www.zoho.com/
-30/05/2018 23:35:33 devpinoyLogger Clicking on Element: loginlink_XPATH
-30/05/2018 23:35:33 devpinoyLogger Typing in an Element: email_XPATH entered value as trainer@way2automation.com
-30/05/2018 23:35:34 devpinoyLogger Typing in an Element: password_XPATH entered value as Selenium@123
-30/05/2018 23:35:34 devpinoyLogger Clicking on Element: signinBtn_XPATH
-30/05/2018 23:35:53 devpinoyLogger Clicking on Element: CRMlink_XPATH
-30/05/2018 23:35:53 devpinoyLogger Clicking on Element: accountstab_XPATH
-30/05/2018 23:35:53 devpinoyLogger Clicking on Element: createaccountbtn_XPATH
-30/05/2018 23:35:54 devpinoyLogger Typing in an Element: accountnamefield_XPATH entered value as Alex
+06/06/2018 21:56:00 devpinoyLogger Launching Chrome
+06/06/2018 21:56:16 devpinoyLogger Launching Chrome

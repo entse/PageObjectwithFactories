@@ -7,6 +7,8 @@
         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
         <listener class-name="com.entse.errorcollectors.TestListenerAdapter"/>
+        <listener class-name="com.entse.listeners.CustomListeners"/>
+
     </listeners>
 
 

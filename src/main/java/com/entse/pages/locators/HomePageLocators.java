@@ -1,7 +1,9 @@
 package com.entse.pages.locators;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 
 import java.util.List;
 
@@ -19,10 +21,14 @@ public class HomePageLocators {
     @FindBy(xpath = "//input[@id='flight-departing-hp-flight']")
     public WebElement departingField;
 
-    @FindBy(xpath = "//input[@id='flight-returning-hp-flight']")
+    @FindBys({
+            @FindBy(xpath = "//label[@for='flight-returning-hp-flight']"),
+            @FindBy(xpath = "//input[@id='flight-returning-hp-flight']")})
     public WebElement returningField;
 
-    @FindBy(xpath = "//select[@id='flight-adults-hp-flight']")
+    @FindAll({
+            @FindBy(xpath = "//select[@id='flight-adults-hp-flight']"),
+            @FindBy(id = "flight-adults-hp-flight")})
     public WebElement adults;
 
     @FindBy(xpath = "//select[@id='flight-children-hp-flight']")

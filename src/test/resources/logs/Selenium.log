@@ -1,22 +1,12 @@
-23:35:24,585 DEBUG devpinoyLogger:57 - Config file loaded!
-23:35:24,591 DEBUG devpinoyLogger:69 - OR file loaded!
-23:35:28,366 DEBUG devpinoyLogger:97 - Chrome launched!
-23:35:32,727 DEBUG devpinoyLogger:113 - Navigated to :https://www.zoho.com/
-23:35:33,649 DEBUG devpinoyLogger:136 - Clicking on Element: loginlink_XPATH
-23:35:33,980 DEBUG devpinoyLogger:150 - Typing in an Element: email_XPATH entered value as trainer@way2automation.com
-23:35:34,130 DEBUG devpinoyLogger:150 - Typing in an Element: password_XPATH entered value as Selenium@123
-23:35:34,231 DEBUG devpinoyLogger:136 - Clicking on Element: signinBtn_XPATH
-23:35:34,681 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
-23:35:34,682 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
-23:35:34,683 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
-23:35:34,684 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:35:34,684 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-23:35:53,021 DEBUG devpinoyLogger:136 - Clicking on Element: CRMlink_XPATH
-23:35:53,158 DEBUG devpinoyLogger:136 - Clicking on Element: accountstab_XPATH
-23:35:53,571 DEBUG devpinoyLogger:136 - Clicking on Element: createaccountbtn_XPATH
-23:35:54,143 DEBUG devpinoyLogger:150 - Typing in an Element: accountnamefield_XPATH entered value as Alex
-23:35:54,593 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
-23:35:54,594 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
-23:35:54,594 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
-23:35:54,595 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:35:54,595 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21:56:00,423 DEBUG devpinoyLogger:51 - Launching Chrome
+21:56:11,582 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+21:56:11,584 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
+21:56:11,587 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
+21:56:11,589 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21:56:11,590 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21:56:16,286 DEBUG devpinoyLogger:51 - Launching Chrome
+21:56:35,032 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+21:56:35,033 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru_RU.ftl"): Not found
+21:56:35,033 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_ru.ftl"): Not found
+21:56:35,033 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21:56:35,033 DEBUG cache:45 - Loading template for "Extent.ftl"("ru_RU", UTF-8, parsed) from "jar:file:/C:/Users/seraf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

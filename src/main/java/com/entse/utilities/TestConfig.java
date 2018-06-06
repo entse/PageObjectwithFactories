@@ -5,7 +5,7 @@ public class TestConfig{
 	// https://www.google.com/settings/security/lesssecureapps - turn ON
 	public static String server="smtp.gmail.com";
 	public static String from = "test@gmail.com";
-	public static String password = "test";
+	public static String password = "pwd";
 	public static String[] to ={"test2@gmail.com","test3@bk.ru"};
 	public static String subject = "Extent Project Report";
 	
