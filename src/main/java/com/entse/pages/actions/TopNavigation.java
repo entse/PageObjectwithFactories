@@ -15,7 +15,7 @@ public class TopNavigation{
     public TopNavigation (WebDriver driver) {
 
         this.topNavigation = new TopNavigationLocators();
-        AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 10);
+        AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 5);
         PageFactory.initElements(factory, this.topNavigation);
     }
 

@@ -1,15 +1,21 @@
-06/06/2018 23:01:05 devpinoyLogger Launching Chrome
-06/06/2018 23:01:10 devpinoyLogger Clicking on Element: [[ChromeDriver: chrome on XP (22f738197c5a888893041815d1f57ceb)] -> xpath: //button[@id = 'header-account-menu']]
-06/06/2018 23:01:46 devpinoyLogger Clicking on Element: Proxy element for: AjaxElementLocator 'By.xpath: //a[@id = 'account-signin']'
-06/06/2018 23:02:17 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (22f738197c5a888893041815d1f57ceb)] -> xpath: //input[@id = 'signin-loginid']] entered value as test@gmail.com
-06/06/2018 23:02:17 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (22f738197c5a888893041815d1f57ceb)] -> xpath: //input[@id = 'signin-password']] entered value as passw12rd
-06/06/2018 23:02:17 devpinoyLogger Clicking on Element: [[ChromeDriver: chrome on XP (22f738197c5a888893041815d1f57ceb)] -> xpath: //button[@id = 'submitButton']]
-06/06/2018 23:02:21 devpinoyLogger Launching Chrome
-06/06/2018 23:02:27 devpinoyLogger Clicking on Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //button[@data-lob='flight']]
-06/06/2018 23:02:29 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //input[@id='flight-origin-hp-flight']] entered value as Odessa, Ukraine (ODS-Odessa Intl.)
-06/06/2018 23:02:31 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //input[@id='flight-destination-hp-flight']] entered value as Paris, France (PAR-All Airports)
-06/06/2018 23:02:32 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //input[@id='flight-departing-hp-flight']] entered value as 23/06/2018
-06/06/2018 23:02:32 devpinoyLogger Typing in an Element: [[[[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //label[@for='flight-returning-hp-flight']]] -> xpath: //input[@id='flight-returning-hp-flight']] entered value as 31/07/2018
-06/06/2018 23:02:33 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //select[@id='flight-adults-hp-flight']] entered value as 1
-06/06/2018 23:02:33 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (47d15dc718786ce93d4b6e9024113b1d)] -> xpath: //select[@id='flight-children-hp-flight']] entered value as 0
-06/06/2018 23:03:09 devpinoyLogger Clicking on Element: Proxy element for: AjaxElementLocator 'By.xpath: //form[@id='gcw-flights-form-hp-flight']//button[@type='submit']'
+07/06/2018 22:31:07 devpinoyLogger Launching Chrome
+07/06/2018 22:31:13 devpinoyLogger Clicking on Element: [[ChromeDriver: chrome on XP (edf993bca58426da07164805b6e9241a)] -> xpath: //button[@id = 'header-account-menu']]
+07/06/2018 22:31:47 devpinoyLogger Clicking on Element: Proxy element for: AjaxElementLocator 'By.xpath: //a[@id = 'account-signin']'
+07/06/2018 22:32:18 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (edf993bca58426da07164805b6e9241a)] -> xpath: //input[@id = 'signin-loginid']] entered value as test@gmail.com
+07/06/2018 22:32:18 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (edf993bca58426da07164805b6e9241a)] -> xpath: //input[@id = 'signin-password']] entered value as passw12rd
+07/06/2018 22:32:18 devpinoyLogger Clicking on Element: [[ChromeDriver: chrome on XP (edf993bca58426da07164805b6e9241a)] -> xpath: //button[@id = 'submitButton']]
+07/06/2018 22:32:21 devpinoyLogger Launching Chrome
+07/06/2018 22:32:40 devpinoyLogger Clicking on Element: [[ChromeDriver: chrome on XP (0b00d1eab8268d9760b8210c0ee963b9)] -> xpath: //button[@id = 'header-account-menu']]
+07/06/2018 22:33:15 devpinoyLogger Clicking on Element: Proxy element for: AjaxElementLocator 'By.xpath: //a[@id = 'account-signin']'
+07/06/2018 22:33:46 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (0b00d1eab8268d9760b8210c0ee963b9)] -> xpath: //input[@id = 'signin-loginid']] entered value as test2@test
+07/06/2018 22:33:46 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (0b00d1eab8268d9760b8210c0ee963b9)] -> xpath: //input[@id = 'signin-password']] entered value as testpwd
+07/06/2018 22:33:46 devpinoyLogger Clicking on Element: [[ChromeDriver: chrome on XP (0b00d1eab8268d9760b8210c0ee963b9)] -> xpath: //button[@id = 'submitButton']]
+07/06/2018 22:33:48 devpinoyLogger Launching Chrome
+07/06/2018 22:33:52 devpinoyLogger Clicking on Element: [[ChromeDriver: chrome on XP (cd2e6e73ef094edd0d346cf1445bf2ac)] -> xpath: //button[@data-lob='flight']]
+07/06/2018 22:33:53 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (cd2e6e73ef094edd0d346cf1445bf2ac)] -> xpath: //input[@id='flight-origin-hp-flight']] entered value as Odessa, Ukraine (ODS-Odessa Intl.)
+07/06/2018 22:33:55 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (cd2e6e73ef094edd0d346cf1445bf2ac)] -> xpath: //input[@id='flight-destination-hp-flight']] entered value as Paris, France (PAR-All Airports)
+07/06/2018 22:33:55 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (cd2e6e73ef094edd0d346cf1445bf2ac)] -> xpath: //input[@id='flight-departing-hp-flight']] entered value as 23/06/2018
+07/06/2018 22:33:55 devpinoyLogger Typing in an Element: [[[[ChromeDriver: chrome on XP (cd2e6e73ef094edd0d346cf1445bf2ac)] -> xpath: //label[@for='flight-returning-hp-flight']]] -> xpath: //input[@id='flight-returning-hp-flight']] entered value as 31/07/2018
+07/06/2018 22:33:55 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (cd2e6e73ef094edd0d346cf1445bf2ac)] -> xpath: //select[@id='flight-adults-hp-flight']] entered value as 1.0
+07/06/2018 22:33:56 devpinoyLogger Typing in an Element: [[ChromeDriver: chrome on XP (cd2e6e73ef094edd0d346cf1445bf2ac)] -> xpath: //select[@id='flight-children-hp-flight']] entered value as 1.0
+07/06/2018 22:33:56 devpinoyLogger Clicking on Element: [[ChromeDriver: chrome on XP (cd2e6e73ef094edd0d346cf1445bf2ac)] -> xpath: //form[@id='gcw-flights-form-hp-flight']//button[@type='submit']]
